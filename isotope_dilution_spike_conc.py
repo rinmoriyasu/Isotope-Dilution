@@ -1,14 +1,14 @@
 standard = 10 #in ppb or ng
 
-iso_a_blank = 476.8
-iso_a_spike = 610.1
-iso_a_standard = 94297.2
-iso_a_stand_spike = 94408.4
+iso_a_blank = 0.0447849
+iso_a_spike = 0.02228726
+iso_a_standard = 6.62328
+iso_a_stand_spike = 6.687
 
-iso_b_blank = 69.5
-iso_b_spike = 57951.6
-iso_b_standard = 13394.7
-iso_b_stand_spike = 84522.0
+iso_b_blank = 0.023259
+iso_b_spike = 1.533104
+iso_b_standard = 3.200
+iso_b_stand_spike = 4.843
 
 
 As = iso_a_spike/(iso_a_spike+iso_b_spike) #Spike Ratio
